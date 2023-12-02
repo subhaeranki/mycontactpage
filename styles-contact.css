@@ -74,7 +74,7 @@ html, body {
     margin: 100px auto;
  	background: rgba(54, 225, 255, 0.382); /*this uses opacity of 26% for the background color*/
 	text-align: center;
-	border: 4px double rgb(255, 210, 210);
+	border: 4px double rgb(255, 210, 210); /* this adds a double border*/
 }
 
    
@@ -132,5 +132,18 @@ a:hover{
 	color: black;
 	text-shadow: 0 0 5px #e9b6e2; /* this adds a pink shadow when you hover*/
   }
-
+  body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
 
