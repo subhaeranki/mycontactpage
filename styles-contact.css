@@ -70,7 +70,7 @@ html, body {
 .center {
     width: 60%;
 	min-width: 300px; /*for responsiveness*/
-	padding: 2%;
+	padding: 5%;
     margin: 100px auto;
  	background: rgba(54, 225, 255, 0.382); /*this uses opacity of 26% for the background color*/
 	text-align: center;
@@ -79,7 +79,7 @@ html, body {
 
    
 #logo {
-	width: 30%;
+	width: 50%;
     margin-bottom: 16px;
 	/*border: 3px dashed red;*/
 	text-align: center;
@@ -130,7 +130,7 @@ a{
 }    
 a:hover{
 	color: black;
-	text-shadow: 0 0 5px #e9b6e2; /* this adds a pink shadow when you hover*/
+	text-shadow: 0 0 12px rgb(255, 0, 179)
   }
   body {
     animation: fadeInAnimation ease 3s;
